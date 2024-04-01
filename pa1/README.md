@@ -1,11 +1,15 @@
 
   
 
-### Instructions
+## Instructions
 
-  
 
-## DB setup:
+### Prerequisites
+-  Install required pip libraries
+-  Install the Chrome web browser and download the Chormedriver that is compliant with your version. The version of the driver included in this repository is 123.0.6312.86.
+
+
+### DB setup:
 
   
 
@@ -31,4 +35,11 @@ or
 - ``\c user``: Switches the connection to another database named user within the psql interface,
 - ``SELECT * FROM page``: Retrieves all data from the table named page in the database
 
+### Usage
 
+Start the crawler with:
+
+```
+crawler.py
+```
+The default is set to 16 threads.
