@@ -12,18 +12,35 @@ pip install psycopg2
 pip install nb_conda
 pip install requests
 pip install pyopenssl
+pip install bs4
+pip install ldextract
+pip install colorama
+
+
 ```
 -  Install the Chrome web browser and download the Selenium Chrome driver that is compliant with your version. The version of the driver included in this repository is 123.0.6312.86.
 They can be found at this link: https://googlechromelabs.github.io/chrome-for-testing/
 
+To check, if we installed and set the path to the driver correctly, we can run:
+```
+chromedriver --version
+```
+
 ### DB setup:
 
-  
+Make sure you have Docker Desktop and Docker CLI tools installed and added to environment $PATH of your OS.
 
-1. Run docker-compose up
+1. Run
+```
+docker-compose up
+```
     Credentials:
     - username: user
     - password: SecretPassword
+  
+
+  First, install Docker Desktop. Then:
+  
 
 2. Connect to DB via pgAdmin (Application)
 
