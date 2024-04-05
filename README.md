@@ -5,7 +5,7 @@
 
 
 ### Prerequisites
--  Install required pip libraries:
+-  Install required Python libraries through pip:
 ```
 pip install selenium
 pip install psycopg2
