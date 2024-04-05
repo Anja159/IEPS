@@ -5,6 +5,7 @@
 
 
 ### Prerequisites
+You will need at least Python3.9 and PostgreSQL 16 on your system and both added to $PATH if they aren't already. We recommend using a virtual environment for git clone.
 -  Install required Python libraries through pip:
 ```
 pip install selenium
@@ -15,8 +16,6 @@ pip install pyopenssl
 pip install bs4
 pip install ldextract
 pip install colorama
-
-
 ```
 -  Install the Chrome web browser and download the Selenium Chrome driver that is compliant with your version. The version of the driver included in this repository is 123.0.6312.86.
 They can be found at this link: https://googlechromelabs.github.io/chrome-for-testing/
