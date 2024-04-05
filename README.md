@@ -38,7 +38,7 @@ docker-compose up
     - password: SecretPassword
   
 
-  First, install Docker Desktop. Then:
+Then:
   
 
 2. Connect to DB via pgAdmin (Application)
