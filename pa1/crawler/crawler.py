@@ -413,6 +413,9 @@ def find_hyperlinks(page_cnt, page_url, links):
 # Insert image, links, data
 def get_images_links(page_url, worker_id):
 	
+	# absolute path for macOS driver
+	# chromedriver_path = '/Users/luka/Downloads/chromedriver-mac-x64/chromedriver'
+	
 	# Headless chrome browser
 	service = Service(executable_path='chromedriver.exe')
 	options = webdriver.ChromeOptions()
@@ -613,6 +616,8 @@ type_codes = {
 	'application/vnd.ms-powerpoint' : 'PPT',
 }
 
+# absolute path for macOS driver
+# chromedriver_path = '/Users/luka/Downloads/chromedriver-mac-x64/chromedriver'
 
 kljucavnica = threading.Lock()
 service = Service(executable_path='chromedriver.exe')
