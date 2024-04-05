@@ -36,10 +36,9 @@ or
 - ``SELECT * FROM page``: Retrieves all data from the table named page in the database
 
 ### Usage
-
-Start the crawler with:
+In the project folder in CLI, move from the root folder to pa1/crawler, so you can start it with:
 
 ```
-crawler.py
+python crawler.py
 ```
 The default is set to 16 threads.
