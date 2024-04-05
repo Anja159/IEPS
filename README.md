@@ -5,20 +5,27 @@
 
 
 ### Prerequisites
--  Install required pip libraries
--  Install the Chrome web browser and download the Chormedriver that is compliant with your version. The version of the driver included in this repository is 123.0.6312.86.
-
+-  Install required pip libraries:
+```
+pip install selenium
+pip install psycopg2
+pip install nb_conda
+pip install requests
+pip install pyopenssl
+```
+-  Install the Chrome web browser and download the Selenium Chrome driver that is compliant with your version. The version of the driver included in this repository is 123.0.6312.86.
+They can be found at this link: https://googlechromelabs.github.io/chrome-for-testing/
 
 ### DB setup:
 
   
 
 1. Run docker-compose up
-    Creds:
+    Credentials:
     - username: user
     - password: SecretPassword
 
-2. Connect to DB via pgAdmin
+2. Connect to DB via pgAdmin (Application)
 
 
   
@@ -26,7 +33,7 @@ or
 
   
 
-2. Connect to DB via cmd
+2. Connect to DB via CLI (bash shell)
 
   
 
