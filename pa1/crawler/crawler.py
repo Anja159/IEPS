@@ -6,10 +6,7 @@ import psycopg2
 from selenium import webdriver
 from urllib import robotparser
 from bs4 import BeautifulSoup
-from frontier import Frontier
-from colorama import Style
-from colorama import Fore
-from colorama import init
+from colorama import Style, Fore, init
 from tldextract import extract
 from selenium.webdriver.chrome.service import Service
 import concurrent.futures
