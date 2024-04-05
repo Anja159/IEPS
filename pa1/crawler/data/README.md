@@ -1,0 +1,1 @@
+Baza je, zaradi velikosti, dostopna na naslovu https://drive.google.com/file/d/11wLLmkqX1aHN8WV2gE1dnCBeS9Gxtzja/view?usp=sharing.
