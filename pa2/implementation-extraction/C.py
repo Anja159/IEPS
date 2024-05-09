@@ -200,17 +200,18 @@ import difflib as dl
 #     main()
 
 # CHATGPT
-def tokenize_html(html_content):
-    soup = BeautifulSoup(html_content, 'html.parser')
-    tokens = []
+def tokenize_html(page):
 
-    for tag in soup.find_all():
-        if tag.name:
-            tokens.append(("initial_tag", tag.name))
-        if tag.string and tag.string.strip():
-            tokens.append(("data", tag.string.strip().lower()))
-        if tag.name:
-            tokens.append(("terminal_tag", tag.name))
+    with open(page) as bs:
+        soup = BeautifulSoup(bs, "html.parser")
+        tokens = []
+        for tag in soup.find_all():
+            if tag.name:
+                tokens.append(("initial_tag", tag.name))
+            if tag.string and tag.string.strip():
+                tokens.append(("data", tag.string.strip().lower()))
+            if tag.name:
+                tokens.append(("terminal_tag", tag.name))
 
     return tokens
 
@@ -261,7 +262,6 @@ def autoExtract(pages):
 
     kitaraHtml1 = pages[0]
     kitaraHtml2 = pages[1]
-    idx = 0
 
     """ TOKENIZE HTML PAGES """
     # for page in pages:
