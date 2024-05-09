@@ -199,9 +199,7 @@ import difflib as dl
 # if __name__ == "__main__":
 #     main()
 
-# CHATGPT
 def tokenize_html(page):
-
     with open(page) as bs:
         soup = BeautifulSoup(bs, "html.parser")
         tokens = []
