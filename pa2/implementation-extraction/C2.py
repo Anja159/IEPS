@@ -86,7 +86,7 @@ def recursive_matching(node1i, node2i):
 
         # String mismatch
         elif isinstance(node1[i], NavigableString) and isinstance(node2[i], NavigableString) and node1[i].string != node2[i].string:
-            node1[i] = "#PCDATA"
+            node1[i] = "#kitara"
 
         # If the strings are the same, don't change them
         elif isinstance(node1[i], NavigableString) and isinstance(node2[i], NavigableString) and node1[i].string == node2[i].string:
