@@ -14,8 +14,8 @@ kitara2 = '../input-extraction/thomann.de/squier_affinity_strat_laurel_sg.html'
 pages = [overstock1, overstock2, rtvslo1, rtvslo2, kitara1, kitara2]
 # pages = [kitara1, kitara2]
 
-# function = sys.argv[1]
-function = 'C'
+function = sys.argv[1]
+# function = 'A'
 
 if function == 'A':
     extractRegex(pages)
