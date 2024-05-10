@@ -139,6 +139,14 @@
             "saving": "$1,025.01",
             "savingPercent": "62%",
             "content": "Crafted of 14-karat white gold,\nthis stylish ring features a bright row of 20 channel-set, princess-cut baguette\ndiamonds. Treat her like royalty and save when you buy jewelry treasures\nat Overstock.com."
+        },
+        "16": {
+            "Title": "14-kt White Gold Diamond Band (0.50 TW)",
+            "listPrice": "$1,635.00",
+            "price": "$609.99",
+            "saving": "$1,025.01",
+            "savingPercent": "62%",
+            "content": "Crafted of 14-karat white gold,\nthis stylish ring features a bright row of 20 channel-set, princess-cut baguette\ndiamonds. Treat her like royalty and save when you buy jewelry treasures\nat Overstock.com."
         }
     },
     {
@@ -205,6 +213,28 @@
             "saving": "$64.01",
             "savingPercent": "64%",
             "content": "Carved of rich black onyx, this\nelephant pendant has 14-karat yellow gold applied to mark the feet, tusk,\ntail, and blanket. A 2-mm round faceted ruby in a gold bezel setting forms\nthe eye. The pendant hangs from an 18-inch chain."
+        },
+        "9": {
+            "Title": "14-kt. Onyx and Ruby Elephant Pendant",
+            "listPrice": "$100.00",
+            "price": "$35.99",
+            "saving": "$64.01",
+            "savingPercent": "64%",
+            "content": "Carved of rich black onyx, this\nelephant pendant has 14-karat yellow gold applied to mark the feet, tusk,\ntail, and blanket. A 2-mm round faceted ruby in a gold bezel setting forms\nthe eye. The pendant hangs from an 18-inch chain."
+        }
+    },
+    {
+        "1": {
+            "Title": "Harley Benton Electric Guitar Kit ST-Style \u2013 Thomann International",
+            "Description": "Electric Guitar Kit ST-Style  Complete DIY (do it yourself) kit, Bolt-on neck attachment, Rengas body (wood colour may vary), Maple neck, \"Double action\" truss rod, Amaranth fretboard, Dot fretboard inlays, Fretboard...",
+            "Price": "79\u00a0\u20ac"
+        }
+    },
+    {
+        "1": {
+            "Title": "Squier Affinity Strat Laurel SG \u2013 Thomann International",
+            "Description": "Electric Guitar  Body: Poplar, Neck: Maple, Neck profile: C, Fingerboard: Laurel, Perloid dot fingerboard inlays, Fretboard radius: 241 mm (9.5\"), Scale: 648 mm (25.5\"), Nut width: 42 mm (1.65\"), Nut: synthetic bone, 21...",
+            "Price": "199\u00a0\u20ac"
         }
     }
 ]

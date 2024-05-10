@@ -46,10 +46,17 @@ def extractXpath(pages):
                 'PublishTime': re.sub('[^A-Za-z0-9.: ]+', '', rootObject.xpath('string(div[@class="article-meta"]/div[@class="publish-meta"]/text())')),
                 'Content': "\n".join([p.xpath('string(.)') for p in rootObject.xpath('.//div[@class="article-body"]//p')])
             }
-
         
-            data[id] = item
-            id += 1
+        else:
+
+            item = {
+                'Title': tree.xpath('string(//title)').strip(),
+                'Description': tree.xpath('string(//meta[@name="description"]/@content)').strip(),
+                'Price': tree.xpath('string(//meta[@property="product:price:amount"]/@content | //span[contains(@class, "price")]/text())').strip()
+            }
+
+        data[id] = item
+        id += 1
             
         results.append(data)
 
